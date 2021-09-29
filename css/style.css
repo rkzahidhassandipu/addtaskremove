@@ -1,0 +1,67 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body{
+	width: 800px;
+	height: 100vh;
+	margin: 50px  auto 0 auto;
+	background: linear-gradient(to top, #121FCF 0%, #CF1512 95%) no-repeat;
+	
+}
+.container{
+	text-align: center;
+}
+#input{
+	width: 350px;
+    padding: 20px 20px 20px 0;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #9b9b9b;
+    background: transparent;
+}
+#input::placeholder{
+	color: #9b9b9b;
+}
+.addTask button{
+	padding: 13px;
+    font-size: 20px;
+    background: black;
+    color: #d5d5d4;
+    border: 2px solid #161515;
+    border-radius: 8px;
+    font-weight: 550;
+}
+.notCompleted h3, .Completed h3{
+	    font-size: 41px;
+    margin: 20px 0 20px 0px;
+    color: #d9d9d9;
+    font-family: 'Merriweather', serif;
+
+}
+li::marker{
+	color: red;
+}
+.fa{
+	font-size: 22px;
+	color: black;
+	margin: 3px 10px;
+	color: white;
+}
+li{
+	background: #50d10e;
+    font-size: 25px;
+    color: white;
+    padding: 5px;
+    text-align: left;
+    border-bottom: 1px solid white;
+    font-family: 'Merriweather', serif;
+}
+li button{
+	float: right;
+	margin: -2px 0;
+	background: none;
+	outline: none;
+	border: none;
+}
