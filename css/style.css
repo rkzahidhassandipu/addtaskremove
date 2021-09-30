@@ -41,7 +41,7 @@ body{
 
 }
 li::marker{
-	color: red;
+	color: #fffffffa;
 }
 .fa{
 	font-size: 22px;
@@ -101,9 +101,9 @@ li button{
 	    background: #5656564f;
 	}
 }
-@media (max-width: 765px){
+@media (max-width: 800px){
 	body{
-		width: 70%;
+		width: 90%;
 		height: 100vh;
 		box-sizing: border-box;
 		margin: 0 auto;
@@ -134,6 +134,10 @@ li button{
 
 	}
 	li {
-	    background: #5656564f;
+	    background: #1a19194f;
+	}
+	ol{
+		width: 87%;
+    	margin: 0 auto;
 	}
 }
