@@ -34,7 +34,7 @@ body{
     font-weight: 550;
 }
 .notCompleted h3, .Completed h3{
-	    font-size: 41px;
+	font-size: 41px;
     margin: 20px 0 20px 0px;
     color: #d9d9d9;
     font-family: 'Merriweather', serif;
@@ -64,4 +64,76 @@ li button{
 	background: none;
 	outline: none;
 	border: none;
+}
+@media (max-width: 480px){
+	body{
+		width: 70%;
+		height: 100vh;
+		box-sizing: border-box;
+		margin: 0 auto;
+		margin-top: 50px;
+	}
+	#input{
+		width: 78%;
+    	padding: 6px 8px 6px 1px;
+	}
+	#input::placeholder{
+		color: #9b9b9b;
+	    font-weight: 700;
+	}
+	#input[type="text"]{
+		color: #cbc6c6;
+	    font-weight: 700;
+	    letter-spacing: 2px;
+	}
+	.addTask button{
+		padding: 5px;
+	    font-size: 20px;
+	    font-weight: 543;
+	    background: #b5b5b563;
+	    border: none;
+	}
+	.notCompleted h3, .Completed h3{
+		font-size: 22px;
+
+	}
+	li {
+	    background: #5656564f;
+	}
+}
+@media (max-width: 765px){
+	body{
+		width: 70%;
+		height: 100vh;
+		box-sizing: border-box;
+		margin: 0 auto;
+		margin-top: 50px;
+	}
+	#input{
+		width: 78%;
+    	padding: 20px 8px 20px 1px;
+	}
+	#input::placeholder{
+		color: #9b9b9b;
+	    font-weight: 700;
+	}
+	#input[type="text"]{
+		color: #cbc6c6;
+	    font-weight: 700;
+	    letter-spacing: 2px;
+	}
+	.addTask button{
+		padding: 20px;
+	    font-size: 20px;
+	    font-weight: bold;
+	    background: #b5b5b563;
+	    border: none;
+	}
+	.notCompleted h3, .Completed h3{
+		font-size: 35px;
+
+	}
+	li {
+	    background: #5656564f;
+	}
 }
