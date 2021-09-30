@@ -65,22 +65,32 @@ li button{
 	outline: none;
 	border: none;
 }
-@media (max-width: 250px){
+@media (max-width: 270px){
 	body{
-		width: 80%;
+		width: 75%;
 		height: 100vh;
 		box-sizing: border-box;
 		margin: 0 auto;
 		margin-top: 50px;
 	}
+	.addTask button{
+		padding: 5px;
+	    font-size: 20px;
+	    font-weight: 543;
+	    background: #b5b5b563;
+	    border: none;
+	}
 	.notCompleted h3, .Completed h3{
 		font-size: 18px;
 
 	}
+	ol{
+		width: 80%;
+    	margin: 0 auto;
+	}
 }
 @media (max-width: 480px){
 	
-
 	body{
 		width: 80%;
 		height: 100vh;
@@ -111,6 +121,10 @@ li button{
 	.notCompleted h3, .Completed h3{
 		font-size: 22px;
 
+	}
+	ol{
+		width: 80%;
+    	margin: 0 auto;
 	}
 	li {
 	    background: #5656564f;
@@ -148,11 +162,12 @@ li button{
 		font-size: 35px;
 
 	}
+	ol{
+		width: 80%;
+    	margin: 0 auto;
+	}
 	li {
 	    background: #1a19194f;
 	}
-	ol{
-		width: 87%;
-    	margin: 0 auto;
-	}
+	
 }
